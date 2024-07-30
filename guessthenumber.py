@@ -1,8 +1,10 @@
 from redbot.core import commands
 import random
 class GuessTheNumber(commands.Cog):
-    def init(self, bot):
+    def __init__(self, bot):
         self.bot = bot
+
+
     @commands.command()
     async def guessthenumber(self, ctx):
         number_to_guess = random.randint(1, 100)
