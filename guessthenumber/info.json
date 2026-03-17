@@ -1,0 +1,11 @@
+{
+    "name": "guessthenumber",
+    "author": ["bencos18"],
+    "description": "Guess the number",
+    "install_msg": "Thank you for installing guessthenumber. Use `[p]guessthenumber` to get started.",
+    "short": "Number guessing game.",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG",
+    "end_user_data_statement": ""
+}
